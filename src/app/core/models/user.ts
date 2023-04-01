@@ -1,11 +1,8 @@
-import * as firebase from 'firebase';
 export class User {
   displayName: string;
   email: string;
   photoURL: string;
   uid: string;
-  initail: string;
-
   initial: string;
 
   constructor(user: firebase.User) {
